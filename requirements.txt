@@ -1,0 +1,11 @@
+# core
+torch>=2.4
+numpy>=1.26
+torchmetrics>=1.4
+tqdm>=4.66
+
+# reprojection.py builds the sampling grid from the two grid definitions
+pyproj>=3.6
+
+# only needed to regenerate the .npy sources from the original netCDF products
+netCDF4>=1.6
